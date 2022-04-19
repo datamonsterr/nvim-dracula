@@ -17,4 +17,5 @@ return {
 	TelescopeBorder = { fg = C.fg },
 	TelescopeTitle = { fg = C.fg },
 	TelescopePromptPrefix = { fg = C.purple },
+	TelescopePromptCounter = { fg = C.fg },
 }
