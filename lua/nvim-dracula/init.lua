@@ -4,7 +4,7 @@ if vim.fn.exists "syntax_on" then
 end
 vim.o.background = "dark"
 vim.o.termguicolors = true
-vim.g.colors_name = "nvim-dracula"
+vim.g.colors_name = "dracula"
 
 C = require "nvim-dracula.colors"
 
