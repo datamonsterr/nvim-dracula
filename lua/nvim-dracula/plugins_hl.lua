@@ -13,5 +13,6 @@ extend "symbol-outline"
 extend "nvim-window"
 extend "gitsigns"
 extend "which-key"
+extend "hop"
 
 return plugins_highlight
