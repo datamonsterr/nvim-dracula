@@ -22,7 +22,7 @@ extend "symbols-outline" -- Error with init
 init "gitsigns"
 init "which-key"
 init "hop"
-if vim.fn.exists "g:loaded_dashboard" == 1 then
+if vim.fn.exists "g:loaded_dashboard" then
   extend "dashboard" -- Don't know how to require("dashboard")
 end
 init "indent_blankline"
