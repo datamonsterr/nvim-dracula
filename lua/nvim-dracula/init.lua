@@ -8,7 +8,7 @@ vim.g.colors_name = "nvim-dracula"
 
 C = require("nvim-dracula.colors")
 
-local sources = { "base", "treesitter", "lsp", "markdown", "plugins_hl" }
+local sources = { "base", "treesitter", "lsp", "markdown", "plugins_hl", "diagnostics", "cmp" }
 
 for _, source in ipairs(sources) do
 	for group, spec in pairs(require("nvim-dracula." .. source)) do
