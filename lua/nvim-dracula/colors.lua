@@ -23,7 +23,7 @@ return {
   dim_red = "#8e4343",
   dim_yellow = "#acb44f",
   dim_green = "#409556",
-  dim_purple = "#503e69",
+  dim_purple = "#72689e",
   dim_cyan = "#3b7885",
   dim_magenta = "#853864",
   black = "#191a21",
