@@ -1,4 +1,4 @@
-vim.g.colors_name = "nvim-dracula"
+vim.g.colors_name = "dracula"
 package.loaded["nvim-dracula"] = nil
 package.loaded["nvim-dracula.base"] = nil
 package.loaded["nvim-dracula.cmp"] = nil
