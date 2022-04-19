@@ -3,7 +3,10 @@
 # How to install it
 
 Put this in your `init.lua`
-`use "datamonsterr/nvim-dracula"`
+
+```lua
+use "datamonsterr/nvim-dracula"
+```
 
 # If you want to get the colors palete
 
