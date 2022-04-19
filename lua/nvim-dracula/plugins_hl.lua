@@ -18,7 +18,7 @@ init "telescope"
 init "bufferline"
 init "nvim-web-devicons"
 init "notify"
-init "symbols-outline"
+extend "symbols-outline" -- Error with init
 init "gitsigns"
 init "which-key"
 init "hop"
