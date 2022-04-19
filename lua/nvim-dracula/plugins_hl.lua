@@ -6,21 +6,22 @@ local check_avail = function(plugin)
   local is_avail, _ = pcall(require, plugin)
   return is_avail
 end
+local init = function(plugin)
+  if check_avail(plugin) then
+    extend(plugin)
+  end
+end
 
-if check_avail "neo-tree.nvim" then
-  extend "neo-tree"
-end
-if check_avail "telescope" then
-  extend "telescope"
-end
-extend "bufferline"
-extend "nvim-web-devicons"
-extend "nvim-notify"
-extend "indent-blankline"
-extend "symbol-outline"
-extend "nvim-window"
-extend "gitsigns"
-extend "which-key"
-extend "hop"
+init "neo-tree"
+init "telescope"
+init "bufferline"
+init "nvim-web-devicons"
+init "nvim-notify"
+init "indent-blankline"
+init "symbol-outline"
+init "nvim-window"
+init "gitsigns"
+init "which-key"
+init "hop"
 
 return plugins_highlight
