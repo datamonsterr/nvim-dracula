@@ -1,2 +1,1 @@
-# nvim-dracula
-I'm a Dracula addict.
+Just my personal Dracula theme :))
