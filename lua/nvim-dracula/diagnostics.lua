@@ -1,6 +1,6 @@
 return {
   DiagnosticVirtualTextError = { italic = true, fg = C.red },
-  DiagnosticVirtualTextHint = { italic = true, fg = C.white },
+  DiagnosticVirtualTextHint = { italic = true, fg = C.cyan },
   DiagnosticVirtualTextWarn = { italic = true, fg = C.orange },
   DiagnosticVirtualTextInfo = { italic = true, fg = C.green },
   DiagnosticError = { fg = C.red },

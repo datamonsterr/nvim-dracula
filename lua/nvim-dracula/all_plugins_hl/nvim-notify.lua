@@ -19,6 +19,6 @@ return {
   NotifyINFOBody = { fg = C.fg },
   NotifyDEBUGBody = { fg = C.fg },
   NotifyTRACEBody = { fg = C.fg },
-  NotifyLogTime = { fg = C.white },
+  NotifyLogTime = { fg = C.grey },
   NotifyLogTitle = { fg = C.cyan },
 }

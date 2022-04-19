@@ -2,7 +2,7 @@ return {
   CmpItemAbbrDefault = { fg = C.fg },
   CmpItemAbbrDeprecatedDefault = { fg = C.fg, bg = C.menu },
   CmpItemAbbrMatchDefault = { fg = C.cyan, bg = C.menu },
-  CmpItemAbbrMatchFuzzyDefault = { fg = C.white },
+  CmpItemAbbrMatchFuzzyDefault = { fg = C.grey },
   CmpItemMenuDefault = { fg = C.fg },
   CompeDocumentation = { link = "Pmenu" },
   CompeDocumentationBorder = { link = "Pmenu" },
