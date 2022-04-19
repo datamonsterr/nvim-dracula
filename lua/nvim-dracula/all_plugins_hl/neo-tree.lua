@@ -2,7 +2,7 @@ return {
   NeoTreeDirectoryIcon = { fg = C.purple },
   NeoTreeDirectoryName = { fg = C.purple, bold = true },
   NeoTreeRootName = { fg = C.purple, bold = true },
-  NeoTreeFileName = { fg = C.bright_purple },
+  NeoTreeFileName = { fg = C.bright_purple, bold = true },
   NeoTreeFileIcon = { fg = C.bright_purple },
   NeoTreeFileNameOpened = { fg = C.green },
   NeoTreeIndentMarker = { fg = C.purple },

@@ -10,7 +10,7 @@ return {
   TSKeywordFunction = { fg = C.cyan, bold = true, italic = true },
   TSConditional = { fg = C.pink, italic = true, bold = true },
   TSRepeat = { fg = C.pink, italic = true, bold = true },
-  TSField = { fg = C.fg },
+  TSField = { fg = C.bright_purple },
   TSVariableBuiltin = { fg = C.purple, italic = true },
   TSError = { fg = C.bright_red },
   TSPunctDelimiter = { fg = C.fg },
