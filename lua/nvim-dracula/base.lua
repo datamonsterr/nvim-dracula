@@ -46,7 +46,7 @@ return {
   CursorLine = { fg = C.none, bg = C.selection },
   Directory = { fg = C.cyan, bg = C.none },
   DiffAdd = { fg = C.bg, bg = C.green },
-  DiffChange = { fg = C.orange, bg = C.none },
+  DiffChange = { fg = C.bright_orange, bg = C.none },
   DiffDelete = { fg = C.red, bg = C.red },
   DiffText = { fg = C.comment, bg = C.yellow },
   ErrorMsg = { fg = C.bright_red, bg = C.none },

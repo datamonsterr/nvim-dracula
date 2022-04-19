@@ -1,6 +1,6 @@
 return {
   TSBoolean = { fg = C.bright_cyan, bold = true },
-  TSConstant = { fg = C.orange, italic = true },
+  TSConstant = { fg = C.bright_orange, italic = true },
   TSVariable = { fg = C.bright_purple },
   TSFunction = { fg = C.green, bold = true },
   TSKeyword = { fg = C.pink, bold = true },
@@ -51,10 +51,10 @@ return {
   TSTag = { fg = C.bright_yellow },
   TSTagDelimiter = { fg = C.fg },
   rainbowcol1 = { bold = true, fg = C.bright_magenta },
-  rainbowcol2 = { bold = true, fg = C.green },
+  rainbowcol2 = { bold = true, fg = C.bright_orange },
   rainbowcol3 = { bold = true, fg = C.bright_cyan },
   rainbowcol4 = { bold = true, fg = C.bright_purple },
-  rainbowcol5 = { bold = true, fg = C.pink },
+  rainbowcol5 = { bold = true, fg = C.bright_red },
   rainbowcol6 = { bold = true, fg = C.bright_green },
   rainbowcol7 = { bold = true, fg = C.bright_magenta },
 }
