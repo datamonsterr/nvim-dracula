@@ -22,6 +22,7 @@ extend "symbols-outline" -- Error with init
 init "gitsigns"
 init "which-key"
 init "hop"
+init "dashboard"
 init "indent_blankline"
 
 return plugins_highlight
