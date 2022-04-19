@@ -1,10 +1,6 @@
 local plugins_highlight = {}
 local extend = function(table)
-	plugins_highlight = vim.tbl_deep_extend(
-		"force",
-		require("user.dracula_theme.all_plugins_hl." .. table),
-		plugins_highlight
-	)
+	plugins_highlight = vim.tbl_deep_extend("force", require("nvim-dracula.all_plugins_hl." .. table), plugins_highlight)
 end
 
 extend("neo-tree")
