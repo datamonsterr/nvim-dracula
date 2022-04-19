@@ -12,15 +12,16 @@ local init = function(plugin)
   end
 end
 
+-- Notice: The file name must be the same as the plugins folder name ( which we can call in require )
 init "neo-tree"
 init "telescope"
 init "bufferline"
 init "nvim-web-devicons"
-init "nvim-notify"
-init "indent-blankline"
-init "symbol-outline"
+init "notify"
+init "symbols-outline"
 init "gitsigns"
 init "which-key"
 init "hop"
+init "indent_blankline"
 
 return plugins_highlight
