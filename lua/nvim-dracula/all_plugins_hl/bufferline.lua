@@ -18,4 +18,5 @@ return {
   BufferLineModifiedSelected = { fg = C.yellow, bg = C.bg },
   BufferLineError = { fg = C.bright_red, bg = C.red },
   BufferLineErrorDiagnostic = { fg = C.bright_red, bg = C.red_1 },
+  BufferLineDuplicate = { fg = C.comment, bg = C.visual },
 }
