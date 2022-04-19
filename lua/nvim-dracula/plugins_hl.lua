@@ -12,5 +12,6 @@ extend "indent-blankline"
 extend "symbol-outline"
 extend "nvim-window"
 extend "gitsigns"
+extend "which-key"
 
 return plugins_highlight
