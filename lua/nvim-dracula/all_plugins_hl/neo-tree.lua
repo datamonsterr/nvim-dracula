@@ -11,6 +11,6 @@ return {
   NeoTreeGitModified = { fg = C.orange },
   NeoTreeGitUntracked = { fg = C.yellow },
   NeoTreeNormal = { bg = C.bg },
-  NeoTreeNormalNC = { bg = C.bg },
+  NeoTreeNormalNC = { fg = C.bright_purple, bg = C.bg, bold = true },
   NeoTreeSymbolicLinkTarget = { fg = C.cyan },
 }
