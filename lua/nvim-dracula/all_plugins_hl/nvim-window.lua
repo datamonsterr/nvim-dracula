@@ -1,3 +1,3 @@
 return {
-	WinJumpColor = { bg = C.purple, fg = C.bg },
+  WinJumpColor = { bg = C.purple, fg = C.bg },
 }

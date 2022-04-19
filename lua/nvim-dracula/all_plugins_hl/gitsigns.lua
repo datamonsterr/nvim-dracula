@@ -1,8 +1,8 @@
 return {
-	GitSignsAdd = { fg = C.bright_green },
-	GitSignsChange = { fg = C.cyan },
-	GitSignsDelete = { fg = C.bright_red },
-	GitSignsAddLn = { fg = C.black, bg = C.bright_green },
-	GitSignsChangeLn = { fg = C.black, bg = C.cyan },
-	GitSignsDeleteLn = { fg = C.black, bg = C.bright_red },
+  GitSignsAdd = { fg = C.bright_green },
+  GitSignsChange = { fg = C.cyan },
+  GitSignsDelete = { fg = C.bright_red },
+  GitSignsAddLn = { fg = C.black, bg = C.bright_green },
+  GitSignsChangeLn = { fg = C.black, bg = C.cyan },
+  GitSignsDeleteLn = { fg = C.black, bg = C.bright_red },
 }

@@ -1,3 +1,3 @@
 return {
-	FocusedSymbol = { bg = "none", fg = C.bright_purple },
+  FocusedSymbol = { bg = "none", fg = C.bright_purple },
 }
