@@ -1,6 +1,6 @@
 local dracula = {}
 
-local colors = require("dracula").colors()
+local colors = require("nvim-dracula.colors")
 
 local bg = ""
 if vim.g.dracula_lualine_bg_color ~= nil then
