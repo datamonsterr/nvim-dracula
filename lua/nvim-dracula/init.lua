@@ -15,7 +15,7 @@ function M.apply()
 
   for _, source in ipairs(sources) do
     for group, spec in pairs(require("nvim-dracula." .. source)) do
-      vim.api.nvim_set_hl(1, group, spec)
+      vim.api.nvim_set_hl(0, group, spec)
     end
   end
 
