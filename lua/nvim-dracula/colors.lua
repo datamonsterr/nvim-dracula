@@ -33,9 +33,8 @@ local colors = {
   nontext = "#3b4048",
   none = "none",
 }
-
-if require("nvim-dracula").usr_colors then
-  colors = vim.tbl_deep_extend("force", require("nvim-dracula").usr_colors, colors)
+if type(vim.g.dracula_colors) == "table" then
+  colors = vim.tbl_deep_extend("force", colors, vim.g.dracula_colors)
 end
 
 return colors
