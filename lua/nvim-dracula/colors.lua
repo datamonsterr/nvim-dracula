@@ -34,6 +34,8 @@ local colors = {
   none = "none",
 }
 
-colors = vim.tbl_deep_extend("force", require("nvim-dracula.usr_opts").usr_colors, colors)
+if require("nvim-dracula.usr_opts").usr_colors then
+  colors = vim.tbl_deep_extend("force", require("nvim-dracula.usr_opts").usr_colors, colors)
+end
 
 return colors
