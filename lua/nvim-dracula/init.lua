@@ -1,9 +1,7 @@
 local M = {}
 
 function M.setup(user_settings)
-  if user_settings.colors ~= nil then
-    C = vim.tbl_deep_extend("force", require "nvim-dracula.colors", user_settings.colors)
-  end
+  M.usr_colors = user_settings.colors
   M.usr_highlights = user_settings.highlights
 end
 
