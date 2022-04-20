@@ -11,7 +11,7 @@ function M.apply()
 
   C = require "nvim-dracula.colors"
 
-  local sources = { "user_highlights", "base", "treesitter", "lsp", "markdown", "plugins_hl", "diagnostics", "cmp" }
+  local sources = { "base", "treesitter", "lsp", "markdown", "plugins_hl", "diagnostics", "cmp", "user_highlights" }
 
   for _, source in ipairs(sources) do
     for group, spec in pairs(require("nvim-dracula." .. source)) do
