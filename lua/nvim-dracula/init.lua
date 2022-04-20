@@ -23,8 +23,9 @@ function M.apply()
       vim.api.nvim_set_hl(0, group, spec)
     end
   end
-  if require("nvim-dracula").usr_highlights then
-    for group, spec in pairs(require("nvim-dracula").usr_highlights) do
+
+  if M.usr_highlights ~= nil then
+    for group, spec in pairs(M.usr_highlights) do
       vim.api.nvim_set_hl(0, group, spec)
     end
   end
