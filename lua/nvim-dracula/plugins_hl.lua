@@ -26,5 +26,6 @@ if vim.fn.exists "g:loaded_dashboard" then
   extend "dashboard" -- Don't know how to require("dashboard")
 end
 init "indent_blankline"
+init "nvim-tree"
 
 return plugins_highlight
