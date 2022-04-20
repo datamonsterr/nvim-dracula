@@ -1,4 +1,4 @@
-return {
+local colors = {
   bg = "#282a36",
   fg = "#f8f8f2",
   selection = "#44475a",
@@ -33,3 +33,7 @@ return {
   nontext = "#3b4048",
   none = "none",
 }
+
+colors = vim.tbl_deep_extend("force", require("nvim-dracula.usr_opts").usr_colors, colors)
+
+return colors
