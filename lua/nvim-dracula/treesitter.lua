@@ -32,7 +32,7 @@ return {
   TSParameter = { fg = C.orange },
   TSParameterReference = { fg = C.orange },
   TSMethod = { fg = C.green },
-  TSProperty = { fg = C.cyan },
+  TSProperty = { fg = C.green },
   TSLabel = { fg = C.cyan },
   TSOperator = { fg = C.pink },
   TSException = { fg = C.purple },
