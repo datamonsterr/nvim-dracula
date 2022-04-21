@@ -7,4 +7,3 @@ package.loaded["nvim-dracula.plugins_hl"] = nil
 package.loaded["nvim-dracula.treesitter"] = nil
 
 require("nvim-dracula").apply()
-require("nvim-dracula").overide()
