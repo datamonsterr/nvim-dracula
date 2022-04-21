@@ -32,18 +32,18 @@ return {
   TSParameter = { fg = C.orange },
   TSParameterReference = { fg = C.orange },
   TSMethod = { fg = C.green },
-  TSProperty = { fg = C.fg },
+  TSProperty = { fg = C.cyan },
   TSLabel = { fg = C.cyan },
   TSOperator = { fg = C.pink },
   TSException = { fg = C.purple },
   TSType = { fg = C.blue },
   TSTypeBuiltin = { fg = C.cyan },
   TSStructure = { fg = C.purple },
-  TSText = { fg = C.orange },
+  TSText = { fg = C.fg },
   TSStrong = { fg = C.orange, bold = true }, -- bold
   TSEmphasis = { fg = C.yellow, italic = true }, -- italic
   TSUnderline = { fg = C.orange, underline = true },
-  TSTitle = { fg = C.cyan }, -- title
+  TSTitle = { fg = C.fg }, -- title
   TSLiteral = { fg = C.yellow }, -- inline code
   TSURI = { fg = C.yellow }, -- urls
   TSConstBuiltin = { fg = C.orange },
