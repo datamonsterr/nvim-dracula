@@ -33,13 +33,5 @@ local colors = {
   nontext = "#3b4048",
   none = "none",
 }
-for name, _ in ipairs(colors) do
-  if type(vim.g["dracula_" .. name]) == "string" then
-    colors[name] = vim.g["dracula_" .. name]
-  end
-end
-if vim.g.dracula_transparent == true then
-  colors.bg = "none"
-end
 
 return colors
