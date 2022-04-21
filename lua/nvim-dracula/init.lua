@@ -1,13 +1,5 @@
 local M = {}
 
--- function M.setup(user_settings)
---   function M.overide()
---     for group, spec in pairs(user_settings.highlights) do
---       vim.api.nvim_set_hl(0, group, spec)
---     end
---   end
--- end
-
 function M.apply()
   vim.cmd "hi clear"
   if vim.fn.exists "syntax_on" then
