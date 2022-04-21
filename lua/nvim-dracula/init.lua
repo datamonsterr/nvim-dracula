@@ -1,8 +1,10 @@
 local M = {}
 
-function M.setup()
-  for group, spec in pairs(require "nvim-dracula.user_highlights") do
-    vim.api.nvim_set_hl(0, group, spec)
+function M.setup(user_settings)
+  function M.overide()
+    for group, spec in pairs(user_settings.highlights) do
+      vim.api.nvim_set_hl(0, group, spec)
+    end
   end
 end
 
