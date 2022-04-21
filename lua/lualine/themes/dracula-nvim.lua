@@ -32,4 +32,9 @@ dracula.insert = {
   c = { fg = C.fg, bg = C.none },
 }
 
+dracula.command = {
+  a = { fg = C.black, bg = C.cyan, gui = "bold" },
+  b = { fg = C.green, bg = C.visual },
+  c = { fg = C.fg, bg = C.none },
+}
 return dracula
