@@ -43,12 +43,12 @@ return {
   TSStrong = { fg = C.orange, bold = true }, -- bold
   TSEmphasis = { fg = C.yellow, italic = true }, -- italic
   TSUnderline = { fg = C.orange, underline = true },
-  TSTitle = { fg = C.bright_cyan }, -- title
+  TSTitle = { fg = C.cyan }, -- title
   TSLiteral = { fg = C.yellow }, -- inline code
   TSURI = { fg = C.yellow }, -- urls
   TSConstBuiltin = { fg = C.orange },
   TSStringEscap = { fg = C.yellow },
-  TSTag = { fg = C.bright_magenta },
+  TSTag = { fg = C.pink },
   TSTagDelimiter = { fg = C.fg },
   rainbowcol1 = { bold = true, fg = C.bright_magenta },
   rainbowcol2 = { bold = true, fg = C.bright_cyan },
