@@ -52,7 +52,7 @@ return {
   ErrorMsg = { fg = C.bright_red, bg = C.none },
   Folded = { fg = C.comment, bg = C.none },
   FoldColumn = { fg = C.none, bg = C.none },
-  IncSearch = { fg = C.orange, bg = C.selection },
+  IncSearch = { fg = C.bg, bg = C.bright_yellow },
   LineNr = { fg = C.comment, bg = C.none },
   NonText = { fg = C.nontext, bg = C.none },
   Pmenu = { fg = C.grey, bg = C.menu },

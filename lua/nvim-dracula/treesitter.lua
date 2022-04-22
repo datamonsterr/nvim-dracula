@@ -4,7 +4,7 @@ return {
   TSVariable = { fg = C.bright_purple },
   TSFunction = { fg = C.green, bold = true },
   TSKeyword = { fg = C.pink, bold = true },
-  TSInclude = { fg = C.pink, bold = true },
+  TSInclude = { fg = C.bright_purple, bold = true, italic = true },
   TSConstructor = { fg = C.cyan, bold = true },
   TSKeywordOperator = { fg = C.pink, bold = true },
   TSKeywordFunction = { fg = C.cyan, bold = true, italic = true },
