@@ -1,7 +1,7 @@
 return {
   cssClassName = { fg = C.bright_cyan, italic = true },
   cssClassNameDot = { fg = C.bright_cyan, italic = true },
-  cssIdentifier = { fg = C.bright_cyan, bold = true },
+  cssIdentifier = { fg = C.bright_cyan, italic = true },
   cssKeyFrameProp = { fg = C.bright_magenta, italic = true },
   cssFunction = { fg = C.bright_magenta },
   cssProp = { fg = C.bright_purple },
