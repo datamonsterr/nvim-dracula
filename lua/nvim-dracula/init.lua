@@ -1,24 +1,4 @@
 local M = {}
-local override = {}
-
-function override.colors(colors)
-  require("nightfox.override").colors = colors
-end
-
-function override.highlights(highlights)
-  require("nightfox.override").highlights = highlights
-end
-
-M.override = override
-function M.setup(opts)
-  if opts.colors then
-    M.override.colors(opts.colors)
-  end
-
-  if opts.highlights then
-    M.override.highlights(opts.highlights)
-  end
-end
 
 function M.apply()
   vim.cmd "hi clear"
