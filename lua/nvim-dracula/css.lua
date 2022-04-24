@@ -10,4 +10,5 @@ return {
   cssAtRule = { fg = C.pink, bold = true },
   cssImportant = { fg = C.bright_orange, bold = true },
   cssTagName = { fg = C.cyan, bold = true, italic = true },
+  cssAttr = { fg = C.fg },
 }
