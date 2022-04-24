@@ -11,4 +11,5 @@ return {
   cssImportant = { fg = C.bright_orange, bold = true },
   cssTagName = { fg = C.cyan, bold = true, italic = true },
   cssAttr = { fg = C.fg },
+  cssBraces = { fg = C.none, bg = C.none, bold = true },
 }
