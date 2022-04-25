@@ -55,7 +55,7 @@ return {
   IncSearch = { fg = C.bg, bg = C.bright_yellow },
   LineNr = { fg = C.comment, bg = C.none },
   NonText = { fg = C.nontext, bg = C.none },
-  Pmenu = { fg = C.grey, bg = C.menu },
+  Pmenu = { fg = C.grey, bg = C.bg },
   PmenuSel = { fg = C.grey, bg = C.selection },
   PmenuSbar = { fg = C.bg, bg = C.none },
   PmenuThumb = { fg = C.none, bg = C.selection },
