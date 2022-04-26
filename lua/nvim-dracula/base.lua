@@ -1,7 +1,7 @@
 return {
   MatchParen = { underline = true },
   VertSplit = { fg = C.selection },
-  CursorLineNr = { fg = C.bright_purple, bg = C.selection, bold = true },
+  CursorLineNr = { fg = C.bright_purple, bold = true },
   Normal = { bg = C.bg, fg = C.fg },
   NormalFloat = { link = "Normal" },
   Comment = { fg = C.comment, italic = true },
