@@ -22,10 +22,13 @@ extend "symbols-outline" -- Error with init
 init "gitsigns"
 init "which-key"
 init "hop"
+init "indent_blankline"
+init "nvim-tree"
+init "aerial"
+init "cmp"
+
 if vim.fn.exists "g:loaded_dashboard" then
   extend "dashboard" -- Don't know how to require("dashboard")
 end
-init "indent_blankline"
-init "nvim-tree"
 
 return plugins_highlight
