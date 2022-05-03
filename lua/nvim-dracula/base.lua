@@ -54,7 +54,7 @@ return {
   LineNr = { fg = C.comment },
   NonText = { fg = C.nontext },
   Pmenu = { fg = C.grey, bg = C.menu },
-  PmenuSel = { fg = C.bright_cyan, bg = C.selection },
+  PmenuSel = { fg = C.purple, bg = C.selection, bold = true },
   PmenuSbar = { fg = C.grey, bg = C.menu },
   PmenuThumb = { fg = C.none, bg = C.selection },
   Question = { fg = C.purple },
