@@ -55,7 +55,7 @@ return {
   NonText = { fg = C.nontext },
   Pmenu = { fg = C.grey, bg = C.menu },
   PmenuSel = { fg = C.grey, bg = C.selection },
-  PmenuSbar = { fg = C.dim_purple, bg = C.visual },
+  PmenuSbar = { fg = C.grey, bg = C.visual },
   PmenuThumb = { fg = C.none, bg = C.selection },
   Question = { fg = C.purple },
   QuickFixLine = { fg = C.black, bg = C.yellow },
