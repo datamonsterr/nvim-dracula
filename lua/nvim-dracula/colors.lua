@@ -30,7 +30,7 @@ local colors = {
   menu = "#21222c",
   visual = "#3e4452",
   gutter_fg = "#4b5263",
-  nontext = "#3b4048",
+  nontext = "#3b3e43",
   none = "none",
 }
 
