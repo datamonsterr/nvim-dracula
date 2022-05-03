@@ -4,7 +4,7 @@ return {
   CmpItemAbbrDeprecated = { fg = C.fg, bg = C.selection, strikethrough = true },
   CmpItemAbbrMatchDefault = { fg = C.cyan, bg = C.menu },
   CmpItemAbbrMatch = { fg = C.bright_purple, bg = C.menu },
-  CmpItemAbbrMatchFuzzyDefault = { fg = C.bright_magenta },
+  CmpItemAbbrMatchFuzzyDefault = { fg = C.bright_purple },
   CmpItemMenuDefault = { fg = C.fg },
   CompeDocumentation = { link = "Pmenu" },
   CompeDocumentationBorder = { link = "Pmenu" },
