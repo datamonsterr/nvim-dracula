@@ -1,6 +1,6 @@
 return {
   CmpItemAbbrDefault = { fg = C.fg },
-  CmpItemAbbrDeprecatedDefault = { fg = C.fg, bg = C.menu },
+  CmpItemAbbrDeprecatedDefault = { fg = C.fg, bg = C.menu, strikethrough = true, italic = true },
   CmpItemAbbrDeprecated = { fg = C.fg, bg = C.selection, strikethrough = true },
   CmpItemAbbrMatchDefault = { fg = C.cyan, bg = C.menu },
   CmpItemAbbrMatch = { fg = C.cyan, bg = C.menu },
@@ -11,7 +11,7 @@ return {
   CmpItemKind = { link = "Pmenu" },
   CmpItemAbbr = { link = "Pmenu" },
   CmpItemKindMethod = { link = "TSMethod" },
-  CmpItemKindText = { link = "TSText" },
+  CmpItemKindText = { link = "TSString" },
   CmpItemKindFunction = { link = "TSFunction" },
   CmpItemKindConstructor = { link = "TSType" },
   CmpItemKindVariable = { link = "TSVariable" },
