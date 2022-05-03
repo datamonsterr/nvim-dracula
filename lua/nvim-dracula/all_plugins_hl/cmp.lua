@@ -1,7 +1,9 @@
 return {
   CmpItemAbbrDefault = { fg = C.fg },
   CmpItemAbbrDeprecatedDefault = { fg = C.fg, bg = C.menu },
+  CmpItemAbbrDeprecated = { fg = C.fg, bg = C.grey, strikethrough = true },
   CmpItemAbbrMatchDefault = { fg = C.cyan, bg = C.menu },
+  CmpItemAbbrMatch = { fg = C.cyan, bg = C.menu },
   CmpItemAbbrMatchFuzzyDefault = { fg = C.grey },
   CmpItemMenuDefault = { fg = C.fg },
   CompeDocumentation = { link = "Pmenu" },
