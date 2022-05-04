@@ -6,8 +6,6 @@ return {
   CmpItemAbbrMatch = { fg = C.bright_purple, bg = C.menu },
   CmpItemAbbrMatchFuzzyDefault = { fg = C.bright_purple },
   CmpItemMenuDefault = { fg = C.fg },
-  CompeDocumentation = { link = "Pmenu" },
-  CompeDocumentationBorder = { link = "Pmenu" },
   CmpItemKind = { link = "Pmenu" },
   CmpItemAbbr = { link = "Pmenu" },
   CmpItemKindMethod = { link = "TSMethod" },
