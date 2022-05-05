@@ -10,7 +10,7 @@ return {
   Character = { fg = C.green },
   Number = { fg = C.purple },
   Boolean = { fg = C.orange },
-  Float = { fg = C.menu },
+  Float = { fg = C.menu, bg = C.menu },
   FloatBorder = { fg = C.menu, bg = C.menu },
   Operator = { fg = C.purple },
   Keyword = { fg = C.pink, bold = true },
