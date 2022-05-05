@@ -10,7 +10,7 @@ return {
   NeoTreeGitConflict = { fg = C.red },
   NeoTreeGitModified = { fg = C.orange },
   NeoTreeGitUntracked = { fg = C.yellow },
-  NeoTreeNormal = { bg = C.bg },
-  NeoTreeNormalNC = { fg = C.bright_purple, bg = C.bg },
+  NeoTreeNormal = { bg = C.menu, fg = C.fg },
+  NeoTreeNormalNC = { fg = C.bright_purple, bg = C.menu, bold = true },
   NeoTreeSymbolicLinkTarget = { fg = C.cyan },
 }
