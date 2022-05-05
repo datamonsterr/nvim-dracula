@@ -37,4 +37,10 @@ dracula.command = {
   b = { fg = C.green, bg = C.visual },
   c = { fg = C.fg, bg = C.none },
 }
+
+dracula.terminal = {
+  a = { fg = C.fg, bg = C.menu, gui = "bold" },
+  b = { fg = C.green, bg = C.visual },
+  c = { fg = C.fg, bg = C.none },
+}
 return dracula
