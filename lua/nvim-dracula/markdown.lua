@@ -21,4 +21,5 @@ return {
   markdownListMarker = { fg = C.cyan },
   markdownOrderedListMarker = { fg = C.red },
   markdownRule = { fg = C.comment },
+  markdownUrl = { fg = C.cyan, bg = C.bg },
 }
