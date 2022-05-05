@@ -11,7 +11,7 @@ return {
   TelescopePromptNormal = { fg = C.fg, bg = C.menu },
   TelescopePromptPrefix = { fg = C.red, bg = C.menu },
   TelescopePromptCounter = { fg = C.dim_purple },
-  TelescopeResultsTitle = { fg = C.menu, bg = C.cyan },
+  TelescopeResultsTitle = { fg = C.menu, bg = C.menu },
   TelescopeResultsNormal = { fg = C.fg, bg = C.menu },
   TelescopePreviewTitle = { fg = C.menu, bg = C.green },
   TelescopePreviewNormal = { fg = C.fg, bg = C.menu },
