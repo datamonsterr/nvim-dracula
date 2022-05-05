@@ -13,19 +13,27 @@ local init = function(plugin)
 end
 
 -- Notice: The file name must be the same as the plugins folder name ( which we can call in require )
-init "neo-tree"
-init "telescope"
-init "bufferline"
-init "nvim-web-devicons"
-init "notify"
 extend "symbols-outline" -- Error with init
-init "gitsigns"
-init "which-key"
-init "hop"
-init "indent_blankline"
-init "nvim-tree"
-init "aerial"
-init "cmp"
+
+local init_plugins = {
+  "gitsigns",
+  "which-key",
+  "hop",
+  "indent_blankline",
+  "nvim-tree",
+  "aerial",
+  "cmp",
+  "toggleterm",
+  "neo-tree",
+  "telescope",
+  "bufferline",
+  "nvim-web-devicons",
+  "notify",
+}
+
+for _, plugin in pairs(init_plugins) do
+  init(plugin)
+end
 
 if vim.fn.exists "g:loaded_dashboard" then
   extend "dashboard" -- Don't know how to require("dashboard")
