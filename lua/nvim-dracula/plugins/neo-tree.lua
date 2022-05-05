@@ -13,5 +13,4 @@ return {
   NeoTreeNormal = { bg = C.menu, fg = C.fg },
   NeoTreeNormalNC = { fg = C.bright_purple, bg = C.menu },
   NeoTreeSymbolicLinkTarget = { fg = C.cyan },
-  NeoTreeVertSplit = { bg = C.menu },
 }
