@@ -1,6 +1,11 @@
-return {
+local toggleterm = {
   ToggleTermNormal = { link = "Normal" },
-  ToggleTerm1NormalFloat = { link = "NormalFloat" },
-  ToggleTerm1FloatBorder = { link = "FloatBorder" },
-  ToggleTerm1Normal = { link = "Normal" },
 }
+
+for i in 1, 20 do
+  toggleterm["ToggleTerm" .. i .. "Normal"] = { link = "Normal" }
+  toggleterm["ToggleTerm" .. i .. "NormalFloat"] = { link = "Normal" }
+  toggleterm["ToggleTerm" .. i .. "FloatBorder"] = { link = "Normal" }
+end
+
+return toggleterm
