@@ -11,5 +11,7 @@ require "nvim-dracula"
 -- Support Feline
 local feline_avail, feline = pcall(require, "feline")
 if feline_avail then
-  feline.add_theme("dracula", require "nvim-dracula.colors")
+  local feline_theme = require "nvim-dracula.colors"
+  feline_theme.bg = feline_theme.menu
+  feline.add_theme("dracula", feline_theme)
 end
