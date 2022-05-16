@@ -15,3 +15,8 @@ for _, source in ipairs(sources) do
     vim.api.nvim_set_hl(0, group, spec)
   end
 end
+
+local is_avail, feline = pcall(require, "feline")
+if is_avail then
+  feline.add_theme("dracula", C)
+end
