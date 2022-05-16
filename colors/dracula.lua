@@ -7,3 +7,9 @@ package.loaded["nvim-dracula.plugins_hl"] = nil
 package.loaded["nvim-dracula.treesitter"] = nil
 
 require "nvim-dracula"
+
+-- Support Feline
+local feline_avail, feline = pcall(require, "feline")
+if feline_avail then
+  feline.add_theme("dracula", require "nvim-dracula.colors")
+end
