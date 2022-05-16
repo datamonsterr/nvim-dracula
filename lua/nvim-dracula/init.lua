@@ -18,5 +18,5 @@ end
 
 local is_avail, feline = pcall(require, "feline")
 if is_avail then
-  feline.add_theme("dracula", C)
+  feline.add_theme("nvim-dracula", C)
 end
