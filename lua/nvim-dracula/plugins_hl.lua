@@ -23,7 +23,6 @@ local init_plugins = {
   "nvim-tree",
   "aerial",
   "cmp",
-  "toggleterm",
   "neo-tree",
   "telescope",
   "bufferline",
