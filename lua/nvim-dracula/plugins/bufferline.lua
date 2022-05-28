@@ -2,7 +2,7 @@ return {
   BufferLineIndicatorSelected = { fg = C.bright_purple, bg = C.bg },
   BufferLineFill = { bg = C.selection },
   BufferLineBufferSelected = { fg = C.bright_purple, bg = C.bg, bold = true },
-  BufferLineBackground = { bg = C.selection, fg = C.dim_purple },
+  BufferLineBackground = { bg = C.visual, fg = C.dim_purple },
   BufferLineSeparator = { bg = C.selection, fg = C.selection },
   BufferLineSeparatorSelected = { bg = C.bg, fg = C.bg },
   BufferLineCloseButton = { bg = C.selection },
