@@ -10,8 +10,10 @@ C = require "nvim-dracula.colors"
 
 local sources = { "css", "base", "treesitter", "lsp", "markdown", "plugins_hl", "diagnostics" }
 
-for _, source in ipairs(sources) do
-  for group, spec in pairs(require("nvim-dracula." .. source)) do
-    vim.api.nvim_set_hl(0, group, spec)
+vim.schedule(function ()
+  for _, source in ipairs(sources) do
+    for group, spec in pairs(require("nvim-dracula." .. source)) do
+      vim.api.nvim_set_hl(0, group, spec)
+    end
   end
-end
+end)
