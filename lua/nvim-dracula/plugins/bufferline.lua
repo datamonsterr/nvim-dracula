@@ -7,7 +7,7 @@ return {
   BufferLineSeparatorSelected = { bg = C.bg, fg = C.bg },
   BufferLineCloseButton = { bg = C.selection },
   BufferLineModified = { bg = C.selection },
-  BufferLineBufferVisible = { fg = C.fg, bg = C.bg },
+  BufferLineBufferVisible = { fg = C.grey, bg = C.bg },
   BufferLineTab = { fg = C.fg, bg = C.bg },
   BufferLineTabSelected = { fg = C.bg, bg = C.bg },
   BufferLineTabClose = { fg = C.bg, bg = C.bg },
