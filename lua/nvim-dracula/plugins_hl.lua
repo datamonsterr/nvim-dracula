@@ -23,7 +23,6 @@ local init_plugins = {
   "nvim-tree",
   "aerial",
   "cmp",
-  "neo-tree",
   "telescope",
   "bufferline",
   "nvim-web-devicons",
@@ -37,5 +36,7 @@ end
 if vim.fn.exists "g:loaded_dashboard" then
   extend "dashboard" -- Don't know how to require("dashboard")
 end
+
+extend "neo-tree"
 
 return plugins_highlight
