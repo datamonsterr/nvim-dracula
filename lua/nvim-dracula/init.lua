@@ -1,9 +1,7 @@
 local M = {}
 
-M.config = require "nvim-dracula.config"
-
-function M.setup(user)
-  M.config = vim.tbl_deep_extend("force", user, M.config)
+function M.setup(custom_opts)
+  require("nvim-dracula.config").set_options(custom_opts)
 end
 
 function M.main()
@@ -26,7 +24,8 @@ function M.main()
   end
 
   for plugin, highlight in pairs(require "nvim-dracula.plugins_hl") do
-    if M.config.enable[plugin] then
+    local config = require "nvim-dracula.config"
+    if config.enable[plugin] then
       for group, spec in pairs(highlight) do
         vim.api.nvim_set_hl(0, group, spec)
       end

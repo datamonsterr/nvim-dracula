@@ -1,4 +1,4 @@
-local default = {
+local config = {
   enable = {
     aerial = true,
     bufferline = true,
@@ -16,4 +16,10 @@ local default = {
     ["which-key"] = true,
   },
 }
-return default
+
+function config.set_options(opts)
+  opts = opts or {}
+  config.options = vim.tbl_deep_extend("force", config.options, opts)
+end
+
+return config
