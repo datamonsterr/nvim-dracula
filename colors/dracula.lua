@@ -7,4 +7,4 @@ package.loaded["nvim-dracula.markdown"] = nil
 package.loaded["nvim-dracula.plugins_hl"] = nil
 package.loaded["nvim-dracula.treesitter"] = nil
 
-require "nvim-dracula"
+require("nvim-dracula").main()
