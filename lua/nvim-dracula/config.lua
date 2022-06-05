@@ -16,3 +16,4 @@ local default = {
     ["which-key"] = true,
   },
 }
+return default
