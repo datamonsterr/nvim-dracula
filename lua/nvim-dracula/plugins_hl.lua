@@ -17,7 +17,10 @@ local plugins = {
 local highlights = {}
 
 for _, plugin in pairs(plugins) do
-  highlights[plugin] = require("nvim-dracula.plugins." .. plugin)
+  local config = require "nvim-dracula.config"
+  if config.enable[plugin] then
+    highlights[plugin] = require("nvim-dracula.plugins." .. plugin)
+  end
 end
 
 return highlights
