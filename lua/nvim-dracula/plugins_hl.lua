@@ -11,7 +11,6 @@ local plugins = {
   "bufferline",
   "nvim-web-devicons",
   "notify",
-  "dashboard",
   "neo-tree",
 }
 local highlights = {}
