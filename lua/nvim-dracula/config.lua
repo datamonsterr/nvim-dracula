@@ -1,4 +1,6 @@
-local config = {
+local config = {}
+
+config.options = {
   enable = {
     aerial = true,
     bufferline = true,
