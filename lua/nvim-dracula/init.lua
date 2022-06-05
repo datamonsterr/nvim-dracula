@@ -1,7 +1,7 @@
 local M = {}
 
 function M.setup(custom_opts)
-  require("nvim-dracula.config").set_options(custom_opts)
+  require("nvim-dracula.config").set_options(custom_opts or {})
 end
 
 function M.main()
