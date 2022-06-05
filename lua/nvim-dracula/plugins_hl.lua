@@ -17,10 +17,7 @@ local plugins = {
 local highlights = {}
 
 for _, plugin in pairs(plugins) do
-  local config = require "nvim-dracula.config"
-  if config.options.enable[plugin] then
-    highlights[plugin] = require("nvim-dracula.plugins." .. plugin)
-  end
+  highlights = vim.tbl_deep_extend("force", highlights, require("nvim-dracula.plugins." .. plugin))
 end
 
 return highlights
